@@ -1,3 +1,5 @@
+# Traffic-Accident-Analysis
+For the Project, our group decided to focus on the Traffic-Accident-Analysis. For this, we analyzed the traffic accident data to identify high-risk areas and potential causes. We also predicted the likelihood of accidents based on certain features. We did some analysis on traffic accident in the Metro Phoenix area to identify high-risk and potential causes of accidents. We also used Machine Learning to predict future accidents and created visualizations to compare the accident rates and severity in different cities. The final deliverables included an interactive map, comparative analysis, and comprehensive documentation.
 # Traffic Accident Analysis
 ## Group 1: Safe Streets Squad
 
