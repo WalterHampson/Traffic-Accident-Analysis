@@ -1,8 +1,7 @@
 # Traffic Accident Analysis
 ## Group 1: Safe Streets Squad
 
-## Website: 
-[website](...)
+
 
 ## Description
 The goal of this project is to analyze traffic accident data in the Metro Phoenix area to identify high-risk intersections and potential causes of accidents. We will use machine learning to predict future accidents and create visualizations to compare the accident rates and severity in different cities. The final deliverables will include an interactive map, comparative analysis, and comprehensive documentation.
@@ -38,7 +37,8 @@ If there are any questions of concerns, I can be reached at:
 ##### [email: kengtennant@gmail.com, ritikajc@gmail.com, tiffanylamarj@gmail.com, walterhampson001@gmail.com](mailto:kengtennant@gmail.com, ritikajc@gmail.com, tiffanylamarj@gmail.com, walterhampson001@gmail.com)
 
 
-
+## Website: 
+[website](...)
 
 
 ## Resources
