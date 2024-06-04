@@ -1,5 +1,44 @@
-# Traffic-Accident-Analysis
-Analyze traffic accident data to identify high-risk areas and potential causes. Predict the likelihood of accidents based on certain features.
+# Traffic Accident Analysis
+
+
+## Website: 
+[website](...)
+
+## Description
+The goal of this project is to analyze traffic accident data in the Metro Phoenix area to identify high-risk intersections and potential causes of accidents. We will use machine learning to predict future accidents and create visualizations to compare the accident rates and severity in different cities. The final deliverables will include an interactive map, comparative analysis, and comprehensive documentation.
+
+
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Features](#features)
+- [Contact](#contact)
+
+## Installation
+Jupyter Notebook, 
+
+## Usage
+This project aims to provide valuable insights into traffic safety in the Metro Phoenix area by leveraging machine learning and data visualization techniques. The findings will help in identifying high-risk areas and potential causes of accidents, which can be crucial for city planners and policymakers to improve road safety.
+
+## Credits
+Kenway, Ritika, Tiffany, Walter
+
+
+
+## Features
+...
+
+
+
+## Contact
+If there are any questions of concerns, I can be reached at:
+##### [github: ktennant5378, teelam1910, ritikadc, WalterHampson](https://github.com/ktennant5378), (https://github.com/teelam1910), (https://github.com/ritikadc), (https://github.com/WalterHampson)
+##### [email: kengtennant@gmail.com, ritikajc@gmail.com, tiffanylamarj@gmail.com, walterhampson001@gmail.com](mailto:kengtennant@gmail.com, ritikajc@gmail.com, tiffanylamarj@gmail.com, walterhampson001@gmail.com)
+
+
+
 
 
 ## Resources
