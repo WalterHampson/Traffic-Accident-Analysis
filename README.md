@@ -7,6 +7,7 @@ Analyze traffic accident data to identify high-risk areas and potential causes. 
 - Class Activities and Projects
 - Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
 - Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
+- OpenAI. (2024). ChatGPT
 - https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/discussion/322830
 - https://github.com/orgs/community/discussions/49949
 - https://us-east-2.console.aws.amazon.com/s3/get-started?region=us-east-2
@@ -16,3 +17,4 @@ Analyze traffic accident data to identify high-risk areas and potential causes. 
 - https://matplotlib.org/stable/api/figure_api.html
 - https://pandas.pydata.org/docs/reference/api/pandas.melt.html
 - https://stackoverflow.com/questions/68961796/how-do-i-melt-a-pandas-dataframe
+- OpenAI. (2024). ChatGPT
