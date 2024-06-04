@@ -6,6 +6,10 @@
 ## Description
 The goal of this project is to analyze traffic accident data in the Metro Phoenix area to identify high-risk intersections and potential causes of accidents. We will use machine learning to predict future accidents and create visualizations to compare the accident rates and severity in different cities. The final deliverables will include an interactive map, comparative analysis, and comprehensive documentation.
 
+## Notes
+** Using subsample as main sample was over 7million 
+** Using 2022 data as 2023 incomplete
+** Drilled data down from US to Arizona to Phoenix Metro
 
 
 ## Table of Contents
