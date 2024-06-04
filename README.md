@@ -1,5 +1,5 @@
 # Traffic Accident Analysis
-# Group 1: Safe Streets Squad
+## Group 1: Safe Streets Squad
 
 ## Website: 
 [website](...)
