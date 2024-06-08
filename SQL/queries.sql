@@ -74,6 +74,63 @@ ORDER BY
 
 
 -- Additional Findings
+-- All Phoenix Metro Counts
+SELECT COUNT(DISTINCT id) AS Unique_Accident_Count
+FROM phx_accidents;
+
+-- Phoenix Accident Counts Only
+SELECT COUNT(id) AS Total_Accident_Count
+FROM phx_accidents
+WHERE city = 'Phoenix';
+
+-- Phoenix Rush Hour Only
+SELECT 
+    CASE 
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 6 AND 8) THEN 'Morning Rush Hour'
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 15 AND 18) THEN 'Evening Rush Hour'
+        ELSE 'Non-Rush Hour'
+    END AS Time_Period,
+    COUNT(id) AS Accident_Count
+FROM 
+    phx_accidents
+WHERE 
+    city = 'Phoenix'
+GROUP BY 
+    CASE 
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 6 AND 8) THEN 'Morning Rush Hour'
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 15 AND 18) THEN 'Evening Rush Hour'
+        ELSE 'Non-Rush Hour'
+    END
+ORDER BY 
+    CASE 
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 6 AND 8) THEN 'Morning Rush Hour'
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 15 AND 18) THEN 'Evening Rush Hour'
+        ELSE 'Non-Rush Hour'
+    END;
+
+-- All cities Rush Hour
+SELECT 
+    CASE 
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 6 AND 8) THEN 'Morning Rush Hour'
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 15 AND 18) THEN 'Evening Rush Hour'
+        ELSE 'Non-Rush Hour'
+    END AS Time_Period,
+    COUNT(id) AS Accident_Count
+FROM 
+    phx_accidents
+GROUP BY 
+    CASE 
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 6 AND 8) THEN 'Morning Rush Hour'
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 15 AND 18) THEN 'Evening Rush Hour'
+        ELSE 'Non-Rush Hour'
+    END
+ORDER BY 
+    CASE 
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 6 AND 8) THEN 'Morning Rush Hour'
+        WHEN (EXTRACT(HOUR FROM accident_time) BETWEEN 15 AND 18) THEN 'Evening Rush Hour'
+        ELSE 'Non-Rush Hour'
+    END;
+	
 -- Filter by Severity
 SELECT * FROM phx_accidents WHERE severity >= 3;
 SELECT * FROM phx_accidents WHERE severity <= 2;
